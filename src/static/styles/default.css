@@ -1,5 +1,6 @@
 :root {
     --ml: 10px;
+    --subWidth: 20%;
 }
 
 body {
@@ -11,7 +12,7 @@ h1, h3 {
     text-align: center;
 }
 
-div{
+div {
     position: absolute;
 
     border: solid;
@@ -24,9 +25,17 @@ div{
 }
 
 #name {
+    text-align: center;
     margin-left: var(--ml);
 }
 
 #instructions {
     margin-left: calc(50%);
+}
+
+#submit {
+    width: var(--subWidth);
+    min-width: 120px;
+    height: 5%;
+    min-height: 20px;
 }
