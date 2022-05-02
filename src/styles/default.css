@@ -1,0 +1,32 @@
+:root {
+    --ml: 10px;
+}
+
+body {
+    background-color: #1b1b1b;
+    color: #ffffff;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+div{
+    position: absolute;
+
+    border: solid;
+    border-color: #6cf542;
+    border-radius: 10px;
+
+    width: calc(50% - var(--ml) - 10px);
+    height: 70%;
+    min-height: 350px;
+}
+
+#name {
+    margin-left: var(--ml);
+}
+
+#instructions {
+    margin-left: calc(50%);
+}
