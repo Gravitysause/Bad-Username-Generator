@@ -9,7 +9,6 @@ class Username:
         Retrieves an adjective from https://random-word-form.herokuapp.com/random/adjective and noun from https://random-word-form.herokuapp.com/random/noun
         combines them with a line in the middle.
 
-
         Example(s)
         ----------
         For the examples, "un" will represent an instance of Username.
@@ -34,6 +33,21 @@ class Username:
     def get_username(self):
         """
         Returns the username.
+
+        Example(s)
+        ----------
+        For the examples, "un" will represent an instance of Username.
+        
+        1.
+        >>> print(un.get_username())
+        descriptive_word
+
+        2.
+        >>> print(un.get_username())
+        wordy_text
+        >>> un.set_username()
+        >>> print(un.get_username())
+        newer_word
 
         Parameters
         ----------
